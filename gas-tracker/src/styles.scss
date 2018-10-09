@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+//Bootstrap theme colors
+$theme-color-primary: rgb(6, 76, 156);
+$theme-color-secondary: rgb(112, 112, 112);
+$theme-color-danger: rgb(242, 99, 95);
+$theme-color-success: rgb(154, 219, 101);
+$theme-color-warning: rgb(224,160,37);
+$theme-color-info: rgb(0, 100, 149);
+
+$theme-colors: (
+  "primary": $theme-color-primary,
+  "secondary": $theme-color-secondary,
+  "danger": $theme-color-danger,
+  "success": $theme-color-success,
+  "warning": $theme-color-warning,
+  "info": $theme-color-info
+);
+
+@import '~bootstrap/scss/bootstrap';
+
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+
+body {
+  font-family: 'Verdana';
+}
+
+.price {
+  color: $theme-color-danger;
+  font-weight: 600;
+}
