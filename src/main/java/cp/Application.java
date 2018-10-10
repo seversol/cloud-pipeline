@@ -24,4 +24,3 @@ public class Application {
         return factory;
     }
 }
-

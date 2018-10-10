@@ -1,17 +1,26 @@
 package cp;
 
-import java.util.concurrent.atomic.AtomicLong;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class FuelStationController {
-    private static final String template = "Hello, %s!";
-    private final AtomicLong counter = new AtomicLong();
 
-    @RequestMapping("/api/fuelstations")
-    public FuelStation greeting(@RequestParam(value = "id") FuelStation station) {
-        return station;
+    private final FuelStationRepository repository;
+
+    FuelStationController(FuelStationRepository repository) {
+        this.repository = repository;
+    }
+
+    @GetMapping("/api/fuelstations")
+    public Iterable<FuelStation> all() {
+        return repository.findAll();
+    }
+
+    @GetMapping("/api/fuelstations/{id}")
+    FuelStation one(@PathVariable Long id) {
+
+        return repository.findOne(id);
     }
 }
