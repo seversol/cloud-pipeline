@@ -1,0 +1,125 @@
+<div class="container-fluid mt-6">
+  <div class="form-group mt-5">
+
+    <!-- This row contains the form components -->
+    <div class="row">
+
+      <div class="col-md-6 mb-2">
+        <label>Address / Zip Code:</label>
+        <div class="input-group">
+          <input type="text" class="form-control">
+          <div class="input-group-append">
+            <button class="btn btn-outline-primary" type="button">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-2">
+        <label>Fuel Type:</label>
+        <div class="input-group">
+          <select class="form-control">
+            <option value="LPG">LPG</option>
+            <option value="PROPANE">Propane</option>
+          </select>
+          <div class="input-group-append">
+            <button class="btn btn-outline-primary" disabled>
+              <i class="fas fa-gas-pump"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-3 mb-2">
+        <label>Google Maps Links:</label>
+        <div class="input-group">
+          <select class="form-control">
+            <option value="">Placeholder 1</option>
+            <option value="">Placeholder 2</option>
+          </select>
+          <div class="input-group-append">
+            <button class="btn btn-outline-primary" disabled>
+              <i class="fas fa-map-marked-alt"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <!-- This row contains the results -->
+    <div class="col-12 col-md-12 col-lg-12 mt-5 p-0">
+      <div class="table-responsive">
+
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">
+                <i class="fas fa-gas-pump mr-2"></i>
+                Fuel Type
+              </th>
+              <th scope="col">Price</th>
+              <th scope="col">Station Name / Address</th>
+              <th scope="col">City</th>
+              <th scope="col">Last Update</th>
+              <th scope="col">Directions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Propane</td>
+              <td class="price">$2.49</td>
+              <td>
+                <p>
+                  <b>QT</b>
+                  <br/> Burleson, TX 74352</p>
+              </td>
+              <td>Burleson</td>
+              <td>1 hours</td>
+              <td>
+                <button type="button" class="btn btn-light">
+                  <i class="fas fa-car"></i>
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>LPG</td>
+              <td class="price">$2.53</td>
+              <td>
+                <p>
+                  <b>Texaco</b>
+                  <br/> Ft Worth, TX 76404</p>
+              </td>
+              <td>Fort Worth</td>
+              <td>2 hours</td>
+              <td>
+                <button type="button" class="btn btn-light">
+                  <i class="fas fa-car"></i>
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>Propane</td>
+              <td class="price">$2.69</td>
+              <td>
+                <p>
+                  <b>Shell</b>
+                  <br/> Dallas, TX 77312</p>
+              </td>
+              <td>Dallas</td>
+              <td>3 hours</td>
+              <td>
+                <button type="button" class="btn btn-light">
+                  <i class="fas fa-car"></i>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
