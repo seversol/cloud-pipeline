@@ -1,0 +1,14 @@
+C:\Users\E348655\Documents\AeroProjects\GitProjects\cloud-pipeline\GasTrackerAPI\GasTrackerAPI\bin\Debug\netcoreapp2.1\GasTrackerAPI.deps.json
+C:\Users\E348655\Documents\AeroProjects\GitProjects\cloud-pipeline\GasTrackerAPI\GasTrackerAPI\bin\Debug\netcoreapp2.1\GasTrackerAPI.runtimeconfig.json
+C:\Users\E348655\Documents\AeroProjects\GitProjects\cloud-pipeline\GasTrackerAPI\GasTrackerAPI\bin\Debug\netcoreapp2.1\GasTrackerAPI.runtimeconfig.dev.json
+C:\Users\E348655\Documents\AeroProjects\GitProjects\cloud-pipeline\GasTrackerAPI\GasTrackerAPI\bin\Debug\netcoreapp2.1\GasTrackerAPI.dll
+C:\Users\E348655\Documents\AeroProjects\GitProjects\cloud-pipeline\GasTrackerAPI\GasTrackerAPI\obj\Debug\netcoreapp2.1\GasTrackerAPI.csprojAssemblyReference.cache
+C:\Users\E348655\Documents\AeroProjects\GitProjects\cloud-pipeline\GasTrackerAPI\GasTrackerAPI\obj\Debug\netcoreapp2.1\GasTrackerAPI.csproj.CoreCompileInputs.cache
+C:\Users\E348655\Documents\AeroProjects\GitProjects\cloud-pipeline\GasTrackerAPI\GasTrackerAPI\obj\Debug\netcoreapp2.1\GasTrackerAPI.RazorAssemblyInfo.cache
+C:\Users\E348655\Documents\AeroProjects\GitProjects\cloud-pipeline\GasTrackerAPI\GasTrackerAPI\obj\Debug\netcoreapp2.1\GasTrackerAPI.RazorAssemblyInfo.cs
+C:\Users\E348655\Documents\AeroProjects\GitProjects\cloud-pipeline\GasTrackerAPI\GasTrackerAPI\obj\Debug\netcoreapp2.1\GasTrackerAPI.AssemblyInfoInputs.cache
+C:\Users\E348655\Documents\AeroProjects\GitProjects\cloud-pipeline\GasTrackerAPI\GasTrackerAPI\obj\Debug\netcoreapp2.1\GasTrackerAPI.AssemblyInfo.cs
+C:\Users\E348655\Documents\AeroProjects\GitProjects\cloud-pipeline\GasTrackerAPI\GasTrackerAPI\obj\Debug\netcoreapp2.1\GasTrackerAPI.RazorTargetAssemblyInfo.cache
+C:\Users\E348655\Documents\AeroProjects\GitProjects\cloud-pipeline\GasTrackerAPI\GasTrackerAPI\bin\Debug\netcoreapp2.1\GasTrackerAPI.pdb
+C:\Users\E348655\Documents\AeroProjects\GitProjects\cloud-pipeline\GasTrackerAPI\GasTrackerAPI\obj\Debug\netcoreapp2.1\GasTrackerAPI.dll
+C:\Users\E348655\Documents\AeroProjects\GitProjects\cloud-pipeline\GasTrackerAPI\GasTrackerAPI\obj\Debug\netcoreapp2.1\GasTrackerAPI.pdb
