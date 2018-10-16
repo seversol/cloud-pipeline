@@ -13,14 +13,15 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 @EnableSpringDataWebSupport
 public class Application {
-    public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
-    }
 
-    @Bean
-    public Jackson2RepositoryPopulatorFactoryBean repositoryPopulator() {
-        Jackson2RepositoryPopulatorFactoryBean factory = new Jackson2RepositoryPopulatorFactoryBean();
-        factory.setResources(new Resource[] { new ClassPathResource("fuel_stations.json") });
-        return factory;
-    }
+  public static void main(String[] args) {
+    SpringApplication.run(Application.class, args);
+  }
+
+  @Bean
+  public Jackson2RepositoryPopulatorFactoryBean repositoryPopulator() {
+    Jackson2RepositoryPopulatorFactoryBean factory = new Jackson2RepositoryPopulatorFactoryBean();
+    factory.setResources(new Resource[]{new ClassPathResource("fuel_stations.json")});
+    return factory;
+  }
 }
