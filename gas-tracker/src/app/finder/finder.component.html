@@ -34,7 +34,7 @@
             </button>
           </div>
         </div>
-      </div>    
+      </div>
 
     </div>
 
@@ -56,17 +56,17 @@
               <th scope="col">Directions</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody *ngIf="!isSearching">
             <tr *ngFor="let s of stations">
-              <td>{{s.fuelTypeCode}}</td>
+              <td>{{s.fuel_type_code}}</td>
               <td class="price">{{randomPrice()}}</td>
               <td>
                 <p>
-                  <b>{{s.stationName}}</b>
-                  <br/>{{s.streetAddress}}</p>
+                  <b>{{s.station_name}}</b>
+                  <br/>{{s.street_address}}</p>
               </td>
               <td>{{s.city}}</td>
-              <td>{{s.updatedAt | date: 'yyyy-MM-dd hh:mm a'}}</td>
+              <td>{{s.updated_at | date: 'yyyy-MM-dd hh:mm a'}}</td>
               <td>
                 <button type="button" class="btn btn-light" (click)="map(s.latitude, s.longitude)">
                   <i class="fas fa-car"></i>
@@ -76,6 +76,9 @@
             </tr>
           </tbody>
         </table>
+        <div>
+        <i *ngIf="isSearching" class="mt-5 fa fa-spinner fa-spin spinner"></i>
+        <h4 *ngIf="!isSearching && (stations == undefined || stations.length < 1)" class="mt-5 no-results">No results to display.</h4>
       </div>
     </div>
   </div>

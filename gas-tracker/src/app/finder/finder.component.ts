@@ -11,23 +11,23 @@ export class FinderComponent implements OnInit {
 
   constructor(private apiService: StationService) { }
 
-  stations:any;
+  stations: any;
   address: string;
   fuelType: string;
+  isSearching = false;
 
   ngOnInit() {
-    this.apiService.getStations().toPromise().then(data => {
-     this.stations = data;
-    });
   }
 
   search() {
+    this.isSearching = true;
     this.apiService.getStations(this.address, this.fuelType).toPromise().then(data => {
+      this.isSearching = false;
       this.stations = data;
-     });
+    });
   }
 
-  map(latitude:string, longitude:string) {
+  map(latitude: string, longitude: string) {
     window.open(`https://www.google.com/maps/search/?api=1&query=${latitude},${longitude}`, "_blank");
   }
 

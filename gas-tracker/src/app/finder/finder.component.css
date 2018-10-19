@@ -1,4 +1,17 @@
 .table-container {
     max-height: 800px;
-    overflow-y: scroll;
+    overflow-y: auto;
+}
+
+.spinner {
+    font-size: 4em;
+    color: #0060af;
+    margin: auto;
+    width:100%;
+    text-align: center;
+}
+
+.no-results {
+    margin: auto;
+    text-align: center;
 }
