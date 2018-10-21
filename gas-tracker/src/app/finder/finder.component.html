@@ -59,7 +59,7 @@
           <tbody *ngIf="!isSearching">
             <tr *ngFor="let s of stations">
               <td>{{s.fuel_type_code}}</td>
-              <td class="price">{{randomPrice()}}</td>
+              <td class="price">{{(!s.price) ? randomPrice(s) : s.price}}</td>
               <td>
                 <p>
                   <b>{{s.station_name}}</b>

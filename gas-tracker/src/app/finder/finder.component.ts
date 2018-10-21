@@ -11,7 +11,7 @@ export class FinderComponent implements OnInit {
 
   constructor(private apiService: StationService) { }
 
-  stations: any;
+  stations:any;
   address: string;
   fuelType: string;
   isSearching = false;
@@ -31,8 +31,9 @@ export class FinderComponent implements OnInit {
     window.open(`https://www.google.com/maps/search/?api=1&query=${latitude},${longitude}`, "_blank");
   }
 
-  randomPrice() {
-    return (Math.random() * (3.89 - 2.09) + 2.09).toFixed(2);
+  randomPrice(s:any) {
+    s.price = (Math.random() * (3.89 - 2.09) + 2.09).toFixed(2);
+    return s.price;
   }
 
 }
